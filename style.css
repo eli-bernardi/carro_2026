@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #e5e4e2 0%, #d8d8d8 100%);
+    color: burlywood;
+}
+
+canvas {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #b5e5cf 0%, #b0e0e6 100%);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #e5e4e2 0%, #d8d8d8 100%);
+    padding: 20px;
+    text-align: center;
+    z-index: 100;
+}
